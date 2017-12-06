@@ -162,6 +162,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/smartron/rimo02a/proprietary/etc/thermal-engine-srtphone.conf:system/etc/thermal-engine-srtphone.conf \
+    vendor/smartron/rimo02a/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/smartron/rimo02a/proprietary/lib/hw/audio.primary.msm8952.so:system/lib/hw/audio.primary.msm8952.so \
     vendor/smartron/rimo02a/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/smartron/rimo02a/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -695,7 +696,6 @@ PRODUCT_PACKAGES += \
     ConnectivityExt \
     cneapiclient \
     com.qti.dpmframework \
-    com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
     com.quicinc.cne \
     dpmapi \
