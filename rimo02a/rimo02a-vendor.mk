@@ -39,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/lib/android.hardware.biometrics.fingerprint@2.1.so:system/lib/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/smartron/rimo02a/proprietary/lib/hw/audio.primary.msm8952.so:system/lib/hw/audio.primary.msm8952.so \
     vendor/smartron/rimo02a/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
+    vendor/smartron/rimo02a/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     vendor/smartron/rimo02a/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/smartron/rimo02a/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/smartron/rimo02a/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -46,6 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/smartron/rimo02a/proprietary/lib64/android.hardware.biometrics.fingerprint@2.1.so:system/lib64/android.hardware.biometrics.fingerprint@2.1.so \
     vendor/smartron/rimo02a/proprietary/lib64/hw/audio.primary.msm8952.so:system/lib64/hw/audio.primary.msm8952.so \
+    vendor/smartron/rimo02a/proprietary/lib64/libaudioroute.so:system/lib64/libaudioroute.so \
     vendor/smartron/rimo02a/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:system/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/smartron/rimo02a/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/smartron/rimo02a/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:system/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
@@ -54,6 +56,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libactuator_dw9714_yuanda.so:system/vendor/lib/libactuator_dw9714_yuanda.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/libaudioparsers.so:system/vendor/lib/libaudioparsers.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_csidtg_common.so:system/vendor/lib/libchromatix_csidtg_common.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:system/vendor/lib/libchromatix_csidtg_cpp_preview.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:system/vendor/lib/libchromatix_csidtg_postproc.so \
@@ -109,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_video_full.so:system/vendor/lib/libchromatix_s5k5e8_video_full.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_zsl_preview.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_zsl_video.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
@@ -203,14 +208,22 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libmmosal_proprietary.so:system/vendor/lib/libmmosal_proprietary.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/libremosaic_daemon.so:system/vendor/lib/libremosaic_daemon.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libseemore.so:system/vendor/lib/libseemore.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/libtinycompress_vendor.so:system/vendor/lib/libtinycompress_vendor.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libtrueportrait.so:system/vendor/lib/libtrueportrait.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib/vendor.qti.hardware.fingerprint@1.0.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/fingerprint.default.so:system/vendor/lib64/hw/fingerprint.default.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/hw/nfc_nci.nqx.default.so:system/vendor/lib64/hw/nfc_nci.nqx.default.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib64/libaudioparsers.so:system/vendor/lib64/libaudioparsers.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib64/libgf_ca.so:system/vendor/lib64/libgf_ca.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib64/libgf_hal.so:system/vendor/lib64/libgf_hal.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libgoodixfingerprintd_binder.so:system/vendor/lib64/libgoodixfingerprintd_binder.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib64/libtinycompress_vendor.so:system/vendor/lib64/libtinycompress_vendor.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:system/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:system/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so:system/vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
@@ -407,6 +420,9 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/hw/vulkan.msm8952.so:system/vendor/lib/hw/vulkan.msm8952.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/lib-imscmservice.so:system/vendor/lib/lib-imscmservice.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/lib-imsxml.so:system/vendor/lib/lib-imsxml.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/lib-uceservice.so:system/vendor/lib/lib-uceservice.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libAlacSwDec.so:system/vendor/lib/libAlacSwDec.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libApeSwDec.so:system/vendor/lib/libApeSwDec.so \
@@ -576,7 +592,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/lib_drplugin_server.so:system/vendor/lib64/lib_drplugin_server.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libacdbmapper.so:system/vendor/lib64/libacdbmapper.so \
@@ -620,7 +635,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libllvm-qgl.so:system/vendor/lib64/libllvm-qgl.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
