@@ -113,7 +113,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_video_full.so:system/vendor/lib/libchromatix_s5k5e8_video_full.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_zsl_preview.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_zsl_video.so \
-    vendor/smartron/rimo02a/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
@@ -468,6 +467,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
+    vendor/smartron/rimo02a/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/smartron/rimo02a/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
