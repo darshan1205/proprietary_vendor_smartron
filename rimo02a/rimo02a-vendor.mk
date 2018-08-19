@@ -1,4 +1,4 @@
-# Copyright (C) 2017 The LineageOS Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -112,14 +112,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
     vendor/smartron/rimo02a/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/smartron/rimo02a/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/goodixfp.b00:system/etc/firmware/goodixfp.b00 \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/goodixfp.b01:system/etc/firmware/goodixfp.b01 \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/goodixfp.b02:system/etc/firmware/goodixfp.b02 \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/goodixfp.b03:system/etc/firmware/goodixfp.b03 \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/goodixfp.b04:system/etc/firmware/goodixfp.b04 \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/goodixfp.b05:system/etc/firmware/goodixfp.b05 \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/goodixfp.b06:system/etc/firmware/goodixfp.b06 \
-    vendor/smartron/rimo02a/proprietary/etc/firmware/goodixfp.mdt:system/etc/firmware/goodixfp.mdt \
     vendor/smartron/rimo02a/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
     vendor/smartron/rimo02a/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
     vendor/smartron/rimo02a/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
@@ -151,9 +143,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/smartron/rimo02a/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/smartron/rimo02a/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
@@ -162,7 +152,16 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/smartron/rimo02a/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/smartron/rimo02a/proprietary/etc/thermal-engine-srtphone.conf:system/etc/thermal-engine-srtphone.conf \
-    vendor/smartron/rimo02a/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
+    vendor/smartron/rimo02a/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
+    vendor/smartron/rimo02a/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
+    vendor/smartron/rimo02a/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
+    vendor/smartron/rimo02a/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/smartron/rimo02a/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/smartron/rimo02a/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
+    vendor/smartron/rimo02a/proprietary/framework/embmslibrary.jar:system/framework/embmslibrary.jar \
+    vendor/smartron/rimo02a/proprietary/framework/imscmlibrary.jar:system/framework/imscmlibrary.jar \
+    vendor/smartron/rimo02a/proprietary/framework/rcsimssettings.jar:system/framework/rcsimssettings.jar \
+    vendor/smartron/rimo02a/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/smartron/rimo02a/proprietary/lib/hw/audio.primary.msm8952.so:system/lib/hw/audio.primary.msm8952.so \
     vendor/smartron/rimo02a/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
     vendor/smartron/rimo02a/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
@@ -170,7 +169,9 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \
     vendor/smartron/rimo02a/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/smartron/rimo02a/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/smartron/rimo02a/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/smartron/rimo02a/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/smartron/rimo02a/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/smartron/rimo02a/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/smartron/rimo02a/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/smartron/rimo02a/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -188,7 +189,9 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     vendor/smartron/rimo02a/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
     vendor/smartron/rimo02a/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
+    vendor/smartron/rimo02a/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/smartron/rimo02a/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
+    vendor/smartron/rimo02a/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/smartron/rimo02a/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/smartron/rimo02a/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/smartron/rimo02a/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
@@ -678,8 +681,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartron/rimo02a/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
-    libloc_api_v02 \
-    libloc_ds_api \
+    libqminvapi \
     libthermalclient \
     libtime_genoff \
     TimeService \
@@ -688,20 +690,9 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     CNEService \
     QtiTetherService \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     colorservice \
     ims \
     imssettings \
-    ConnectivityExt \
-    cneapiclient \
-    com.qti.dpmframework \
-    com.qti.snapdragon.sdk.display \
-    com.quicinc.cne \
-    dpmapi \
-    embmslibrary \
-    imscmlibrary \
     qcnvitems \
-    qcrilhook \
-    rcsimssettings \
-    tcmclient
+    qcrilhook
